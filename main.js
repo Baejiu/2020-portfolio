@@ -48,7 +48,7 @@ homeContactBtn.addEventListener('click', () => {
 // document.addEventListener('scroll', () => {
 //   const y = window.scrollY;
 //   console.log(y);
-  
+//   if(y / homeHeight) {} 
 // });
 
 //Make home slowly fade to transparent as the window scrolls down
