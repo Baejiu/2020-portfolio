@@ -10,9 +10,10 @@
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
-  --color-blue: #73aace;
+  --color-blue: #3faaf1;
   --color-orange: #feb546;
   --color-yellow:#FFE524;
+  --color-light-blue: #a8d5ff;
 
   /* Font size */
   --font-large: 48px;
@@ -214,7 +215,7 @@ p {
 /* Skill */
 
 #skills {
-  background-color:var(--color-blue);
+  background-color:var(--color-light-blue);
 }
 .skillset {
   display: flex;
@@ -245,7 +246,7 @@ p {
 }
 .skill__value {
   height:3px;
-  background-color: orange;
+  background-color: var(--color-yellow);
 }
 .skillset__right {
   flex-basis: 40%;
@@ -269,7 +270,7 @@ p {
 padding: 8px 48px;
 }
 .category__btn.active, .category__btn:hover {
-  background-color:var(--color-pink);
+  background-color:var(--color-orange);
   color: var(--color-white);
 }
 .category__btn.active .category__count, 
@@ -279,7 +280,7 @@ padding: 8px 48px;
 }
 
 .category__count {
-  background-color: var(--color-orange);
+  background-color: var(--color-blue);
   border-radius: 50%;
   color:var(--color-white);
   width: 24px;
@@ -300,7 +301,7 @@ padding: 8px 48px;
 }
 .project {
   position: relative;
-  width: 280px;
+  width: 250px;
   height:250px;
   display: flex;
   justify-content: center;
@@ -383,15 +384,16 @@ padding: 8px 48px;
 
 }
 .testimonial__speech-bubble a {
-  color: var(--color-pink);
+  color: var(--color-orange);
 }
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background: url(images/home-background.jpg) bottom/cover;
+  
 }
 .contact__title, .contact__email, .contact__rights, .contact__links a {
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 .contact__title {
@@ -400,6 +402,9 @@ padding: 8px 48px;
 .contact__links {
   font-size: var(--font-large);
   margin: 24px 0;
+  
+}
+.contact__links i {
   transition: all var(--annimation-duration) ease-in;
 }
 .contact__links i:hover {
