@@ -430,6 +430,24 @@ padding: 8px 48px;
   color:var(--color-yellow);
 }
 
+/* Arrow up */
+.arrow-up {
+  opacity:0;
+  position: fixed;
+  bottom:50px;
+  right:50px;
+  width:50px;
+  height:50px;
+  background-color:var(--color-yellow);
+  border-radius: 50%;
+  font-size:var(--font-medium);
+  transition: opacity var(--annimation-duration) ease-in;
+  pointer-events:none;
+}
+.arrow-up.visible {
+  opacity:1;
+  pointer-events:auto;
+}
 
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
