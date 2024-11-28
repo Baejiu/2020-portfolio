@@ -141,6 +141,8 @@ p {
   top: 16px;
   font-size: 24px;
   display: none;
+  width: 24px;
+  height: 24px;
 }
 /* Home */
 #home {
@@ -312,7 +314,7 @@ p {
   display: inline-block;
   position: absolute;
   top: -20px;
-  right:16px;
+  right: 16px;
   opacity: 0;
   transition: all var(--annimation-duration) ease-in;
 }
@@ -464,27 +466,26 @@ p {
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
   :root {
-      /* Font size */
-  --font-large: 30px;
-  --font-medium: 18px;
-  --font-regular: 16px;
-  --font-small: 14px;
-  --font-micro: 12px;
-
+    /* Font size */
+    --font-large: 30px;
+    --font-medium: 18px;
+    --font-regular: 16px;
+    --font-small: 14px;
+    --font-micro: 12px;
   }
   .navbar__toggle-btn {
     display: block;
-    top:24px;
-    right:16px;
+    top: 24px;
+    right: 16px;
     font-size: var(--font-medium);
   }
   #navbar {
     flex-direction: column;
     align-items: flex-start;
-    background-color:var(--color-white);
+    background-color: var(--color-white);
   }
-  #navbar.navbar--dark{
-    padding:16px;
+  #navbar.navbar--dark {
+    padding: 16px;
   }
   .navbar__logo img {
     width: 24px;
@@ -499,7 +500,7 @@ p {
     display: block;
   }
   .home__avatar {
-    width:160px;
+    width: 160px;
   }
   .home__contact {
     background-color: var(--color-yellow);
@@ -522,7 +523,7 @@ p {
   }
   .category__btn {
     margin: 4px 0;
-    width:100%;
+    width: 100%;
   }
   .project {
     flex-grow: 1;
@@ -535,10 +536,10 @@ p {
   .testimonial__avatar {
     width: 120px;
     height: 120px;
-    margin-bottom:8px;
+    margin-bottom: 8px;
   }
   .testimonial__avatar:nth-child(odd) {
-    margin-right:0;
+    margin-right: 0;
   }
   .testimonial__avatar:nth-child(even) {
     margin-left: 0;
@@ -548,9 +549,9 @@ p {
   }
   .arrow-up {
     width: 50px;
-    height:50px;
-    fonti-size:30px;
-    bottom:16px;
-    right:16px;
+    height: 50px;
+    fonti-size: 30px;
+    bottom: 16px;
+    right: 16px;
   }
 }
